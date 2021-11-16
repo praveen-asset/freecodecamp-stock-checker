@@ -1,8 +1,9 @@
 {
-	"name": "boilerplate-project-stockchecker",
+	"name": "project-stockchecker",
 	"version": "0.0.1",
 	"description": "InfoSec project for freeCodeCamp",
 	"scripts": {
+		"dev": "nodemon server.js",
 		"start": "node server.js"
 	},
 	"dependencies": {
@@ -13,7 +14,10 @@
 		"dotenv": "^8.2.0",
 		"express": "^4.14.0",
 		"helmet": "^3.1.0",
-		"mocha": "^3.2.0"
+		"mocha": "^3.2.0",
+		"mongoose": "^6.0.12",
+		"node-fetch": "^2.6.6",
+		"nodemon": "^2.0.15"
 	},
 	"repository": {
 		"type": "git",
